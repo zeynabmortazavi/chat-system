@@ -1,0 +1,7 @@
+dependencies {
+    implementation project (':chat-service:chat-domain:chat-application-service')
+    implementation project (':chat-service:chat-domain:chat-domain-core')
+    implementation project (':chat-service:chat-application')
+    implementation project (':chat-service:chat-messaging')
+    implementation project (':chat-service:chat-data-access')
+}

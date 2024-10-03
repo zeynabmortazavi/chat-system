@@ -1,0 +1,14 @@
+configurations {
+    compileOnly {
+        extendsFrom annotationProcessor
+    }
+}
+dependencies {
+    implementation project(':common:common-domain')
+    compileOnly 'org.projectlombok:lombok:1.18.34'
+    annotationProcessor 'org.projectlombok:lombok:1.18.34'
+}
+
+jar {
+    enabled = true
+}
